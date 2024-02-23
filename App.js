@@ -8,7 +8,7 @@ function App() {
         <Image source={require('./download.png')} style={styles.image} resizeMode="contain"/>
         <TextInput style={styles.input} placeholder="Email" />
         <TextInput style={styles.input} placeholder="Senha" secureTextEntry={true} />
-        <Button title="Entrar" onPress={() => {}} />
+        <Button title="ENTRAR" onPress={() => {}} />
       </View>
     </View>
   );
